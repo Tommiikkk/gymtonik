@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    background-color: #FAF0E6;
+    color: #333;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 25px;
+}
+
+main {
+    width: 100%;
+    padding: 25px;
+    background-color: #FFC0CB;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.screen {
+    padding: 20px;
+    margin: 15px 0;
+    background-color: #FFE4E1;
+    border-radius: 15px;
+    min-height: 80px;
+    border: 2px solid white;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #FFB6C1;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #FF69B4;
+    background-color: #FFF0F5;
+}
+
+input[type='button'] {
+    background-color: white;
+    color: #333;
+    padding: 12px;
+    border: none;
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type='button']:hover {
+    background-color: #FFB6C1;
+    color: white;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #4A2C2C;
+    margin: 10px 0 0 0;   
+    padding: 10px;
+}
+
+.header_wrapper {
+    width: 100%;
+    max-width: 500px;  
+    margin: 0 auto;    
+    padding: 0 25px;   
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #4A2C2C;
+    margin: 0 0 10px 0;    
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+input[type="submit"] {
+    background-color: #FFB6C1;  
+    color: #4A2C2C; 
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF69B4; 
+    color: white;
+    transform: scale(1.02);
+}
+
+button {
+    border: none;       
+    background: transparent; 
+    cursor: pointer;    
+    font-size: 14px;    
+    color: #FF69B4;     
+    padding: 5px 8px;
+    float: right;     
+    border-radius: 5px;
+    margin-left: 10px; 
+}
+button:hover {
+    color: #FF1493;
+    background-color: rgba(255, 105, 180, 0.1);
+}
+
+#list_exerc li button {
+    float: none; 
+    margin-left: auto;
+    background-color: transparent;
+    color: #FF69B4;
+    font-size: 16px;
+}
+
+#list_exerc li button:hover {
+    background-color: #FFE4E1;
+    color: #FF1493;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymtonic</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class='header_wrapper'>
+                <h1>&#128151Gymtonic&#128151</h1>
+            </div>
+        </header>
+
+        
+        <main>
+            <section id="reg_screen" class="screen">
+                <h2>Регистрация</h2>
+                <form action="" method="post">
+                    <label for="user_email">Введите email</label>
+                    <input type="email" name="email" id="user_email"> 
+                    
+                    <label for="user_pass">Введите пароль</label>
+                    <input type="password" name="password" id="user_pass">
+                    
+                    <input type="submit" value="Войти" id="but_reg">
+                </form>
+            </section>
+            
+            <section id="dashboard_screen" class="screen hidden">
+                <h2>Мои упражнения</h2>
+                <p>Список упражнений:</p>
+                <ul id='list_exerc' title="Список упражнений"></ul>
+                <form action="" method="post">
+            <label for="add_ex">Добавить свое упражнение можно ниже</label> 
+            <input type="text" id="add_ex" placeholder="Введите сюда упражнение"> 
+            <input type="button" id="but_add_ex" value="➕ Добавить упражнение">
+            </form>
+            </section>
+            
+            <section id="profile_screen" class="screen hidden">
+                <h2>Мой профиль</h2>
+                <p>Имя_пользователя</p>
+                <form action="">
+                    <button type="submit" id="logout" value="Выйти из аккаунта"></button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Gymtonic</p>
+            <p>Made by Tati</p>
+        </footer>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
